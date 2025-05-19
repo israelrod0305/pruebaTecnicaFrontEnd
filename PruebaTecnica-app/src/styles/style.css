@@ -1,0 +1,65 @@
+.form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 1em;
+  }
+  
+  .form-control {
+    width: 100%;
+    height: 25px;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .textField {
+    width: 100%;
+    height: 15px;
+  }
+  
+  .form-link {
+    display: block;
+    margin-top: 0.5em;
+    text-align: right;
+    color: #02545C;
+    font-size: small;
+    text-decoration: none;
+    text-decoration: underline;
+  }
+  
+  .alert-error {
+    color: red;
+    font-size: small;
+    padding-top: 0;
+    text-align: start;
+  }
+
+  .left-aligned-label {
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .input-container {
+    padding-left: 0;
+  }
+
+  @media (max-width: 780px) {
+    .hide-on-mobile {
+      display: none;
+    }
+  }
+
+  @media (min-width: 780px) {
+    .show-on-mobile {
+      display: none;
+    }
+  }
+  

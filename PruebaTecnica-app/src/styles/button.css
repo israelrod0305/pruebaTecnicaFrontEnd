@@ -1,0 +1,141 @@
+.btnDisplay{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    padding-top: 2%;
+    gap: 10%;
+    @media (max-width: 600px) {
+        gap: 5%;
+    }
+}
+
+.btnStepper{
+    color: #fff !important; 
+    background-color: #21bd6f !important;
+    height: 25px !important;
+    position: relative !important;
+    width: 135px !important;
+
+    &:hover {
+        color: #007d73 !important; 
+        background-color: #fff !important;
+    }
+
+    &:disabled {
+        opacity: 0.5; 
+        cursor: not-allowed; 
+        color: #fff;
+        
+    }
+    @media (max-width: 600px) {
+        font-size: 10px !important;
+    }
+}
+
+.btnPaid{
+    color: #fff !important; 
+    background-color: #bd8921 !important;
+    height: 25px !important;
+    position: relative !important;
+    top: 20%  !important;
+    width: 195px !important;
+
+    &:hover {
+        color: #bd8921 !important; 
+        background-color: #fff  !important;
+    }
+
+    &:disabled {
+        opacity: 0.5; 
+        cursor: not-allowed; 
+        color: #fff;
+    }
+
+    @media (max-width: 600px) {
+        font-size: 10px !important;
+        width: 285px !important;
+    }
+}
+
+.btnBack{
+    background-color: #2775e2 !important;
+    &:hover {
+        color: #2775e2 !important;
+        background-color: #fff  !important;
+    }
+    @media (max-width: 600px) {
+        font-size: 10px;
+    }
+}
+
+.button-styled {
+    background-color: #02545C; 
+    color: white; 
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 16px; 
+    cursor: pointer; 
+    outline: none; 
+    width: 190px !important;
+    height: 50px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    background-color: #02545C;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
+  }
+  
+  .button-styled-primary {
+    background-color: #02545C; 
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 16px; 
+    cursor: pointer; 
+    outline: none; 
+    width: 190px !important;
+    height: 45px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .button-styled-back {
+    background-color: white; 
+    color: #02545C; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 16px; 
+    cursor: pointer; 
+    outline: none; 
+    width: 190px !important;
+    height: 45px !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .button-styled:hover {
+    background-color: #008f7a; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button-styled:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
