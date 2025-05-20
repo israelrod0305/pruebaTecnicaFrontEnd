@@ -16,7 +16,7 @@ const LoteService = {
             fechaVencimiento: formData.fechaVencimiento,
             cantidadInicial: formData.cantidadInicial,
             usuario: formData.usuario,
-            estado: formData.estado,
+            estado: '1',
             accion: "INS"
         };
         try {

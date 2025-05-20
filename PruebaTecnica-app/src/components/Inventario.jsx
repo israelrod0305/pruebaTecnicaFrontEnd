@@ -199,7 +199,7 @@ const Inventario = () => {
       renderCell: (params) => (
         <>
           <IconButton onClick={() => handleEdit(params.row)}><EditIcon /></IconButton>
-          <IconButton onClick={() => handleDelete(params.row.productoID)}><DeleteIcon /></IconButton>
+          <IconButton onClick={() => handleDelete(params.row.loteID)}><DeleteIcon /></IconButton>
         </>
       ),
     },
